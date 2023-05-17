@@ -1,5 +1,7 @@
 import Contador from "./components/Contador"
+import ContadorConHook from "./components/ContadorConHook"
 import Funciones from "./components/Funciones"
+import Login from "./components/Login"
 import ObjetosLiterales from "./components/ObjetosLiterales"
 import TiposBasicos from "./components/TiposBasicos"
 
@@ -15,6 +17,10 @@ const App = () => {
       < Funciones />
       <hr />
       < Contador />
+      <hr />
+      < ContadorConHook />
+      <hr />
+      < Login />
     </div>
   )
 }
