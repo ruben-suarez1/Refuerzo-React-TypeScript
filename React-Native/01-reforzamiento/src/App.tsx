@@ -4,6 +4,8 @@ import Funciones from "./components/Funciones"
 import Login from "./components/Login"
 import ObjetosLiterales from "./components/ObjetosLiterales"
 import TiposBasicos from "./components/TiposBasicos"
+import Usuarios from "./components/Usuarios"
+import UsuariosConHooks from "./components/UsuariosConHooks"
 
 const App = () => {
   return (
@@ -21,6 +23,10 @@ const App = () => {
       < ContadorConHook />
       <hr />
       < Login />
+      <hr />
+      < Usuarios />
+      <hr />
+      < UsuariosConHooks />
     </div>
   )
 }
